@@ -11,10 +11,10 @@ def display_menu():
 
 def main():
     todo_list = ToDoList()
-
+    #Adding comments
     while True:
         display_menu()
-        choice = input("Enter your choice: ")
+        choice = input("Enter your choice to choose the task: ")
 
         if choice == '1':
             task = input("Enter the task: ")
