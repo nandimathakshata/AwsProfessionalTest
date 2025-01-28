@@ -25,7 +25,7 @@ def main():
         elif choice == '3':
             print("Tasks:")
             print(todo_list.view_tasks())
-        elif choice == '4':
+        elif choice == '5':
             print("Exiting the application...")
             break
         else:
